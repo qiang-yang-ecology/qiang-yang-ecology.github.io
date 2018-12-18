@@ -3,19 +3,27 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-I'd love to hear from you, so feel free to reach out:
+I'd love to discuss with you on **ecology**, **data analysis**, and **R**, so feel free to reach out:
+qiang.yang@uni-konstanz.de<br>
 
-Memorial Sloan Kettering Cancer Center<br>
-485 Lexington Ave, 2nd floor<br>
-New York, NY 10017<br>
-646-888-8299<br>
-zabore@mskcc.org<br>
+Ecology Lab (M840)<br>
+Department of Biology<br>
+University of Konstanz<br>
+Universitätsstraße 10<br>
+78464 Konstanz<br>
+Germany<br>
 
-Columbia University<br>
-Mailman School of Public Health<br>
-722 West 168th St, 6th floor<br>
-New York, NY 10032<br>
-ecz2108@cumc.columbia.edu<br>
 
-Or connect with me on GitHub, Twitter, or Linkedin (links in top right).
 
+```{r include=FALSE}
+library(leaflet)
+library(tidyverse)
+```
+
+Use the leaflet map below to explore where I am working.
+```{r include=FALSE}
+leaflet() %>%
+  setView(lng=9.188141, lat=47.690429, zoom=16) %>%
+  addTiles() %>%
+  addMarkers(lng=9.188141, lat=47.690429,popup='University of Konstanz')
+```
