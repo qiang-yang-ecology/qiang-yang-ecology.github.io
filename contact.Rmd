@@ -21,7 +21,7 @@ library(tidyverse)
 ```
 
 Use the leaflet map below to explore where I am working.
-```{r include=FALSE}
+```{r, echo=FALSE}
 leaflet() %>%
   setView(lng=9.188141, lat=47.690429, zoom=16) %>%
   addTiles() %>%
