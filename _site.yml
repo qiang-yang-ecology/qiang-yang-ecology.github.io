@@ -5,9 +5,9 @@ navbar:
   left:
     - text: "About me"
       href: research.html
-    - text: "Projects"
-      href: talks.html
     - text: "Publications"
+      href: Publications.html
+    - text: "Projects"
       href: software.html
     - text: "Posts"
       href: teaching.html
