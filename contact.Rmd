@@ -4,15 +4,16 @@
 <link rel="stylesheet" href="styles.css" type="text/css">
 
 **I'd love to discuss with you on ecology, data analysis, and R, so feel free to reach out:**
-qiang.yang@uni-konstanz.de<br>
+qiang.yang@uni-konstanz.de
 
-Ecology Lab (M840)<br>
-Department of Biology<br>
-University of Konstanz<br>
-Universitätsstraße 10<br>
-78464 Konstanz<br>
-Germany<br>
-
+```{r, eval=FALSE}
+Ecology Lab (M840)
+Department of Biology
+University of Konstanz
+Universitätsstraße 10
+78464 Konstanz
+Germany
+```
 
 
 ```{r include=FALSE}
@@ -20,10 +21,13 @@ library(leaflet)
 library(tidyverse)
 ```
 
-Use the leaflet map below to explore where I am working.
+Use the leaflet map below to explore where I am working and our [Botanic Garden](https://www.biologie.uni-konstanz.de/botanischer-garten/).
 ```{r, echo=FALSE}
+leafIcon1 <- icons(iconUrl = "images/icon.study.png",iconWidth = 40, iconHeight = 40)
+leafIcon2 <- icons(iconUrl = "images/icon.botanic.garden.png",iconWidth = 40, iconHeight = 40)
 leaflet() %>%
-  setView(lng=9.188141, lat=47.690429, zoom=16) %>%
+  setView(lng=9.183141, lat=47.690429, zoom=16) %>%
   addTiles() %>%
-  addMarkers(lng=9.188141, lat=47.690429,popup='University of Konstanz')
+  addMarkers(lng=9.188141, lat=47.690429,popup='University of Konstanz',icon=leafIcon1) %>%
+  addMarkers(lng=9.178205, lat=47.692076,popup='Botanic Garden',icon=leafIcon2)
 ```

@@ -9,15 +9,15 @@ navbar:
       href: talks.html
     - text: "Publications"
       href: software.html
-    - text: "Blog"
+    - text: "Posts"
       href: teaching.html
-  right:
-    - icon: fa-envelope fa-lg
+    - text: "Contact"
       href: contact.html
-    - icon: fa-github fa-lg
-      href: http://github.com/qiang-yang-ecology
+  right:
     - icon: fa-twitter fa-lg
       href: https://twitter.com/Qiang__Yang
+    - icon: fa-github fa-lg
+      href: http://github.com/qiang-yang-ecology
 output:
   html_document:
     theme: paper
