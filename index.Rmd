@@ -3,14 +3,12 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/emily_2.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/panda.png" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-My interest is in using data as a tool to answer research questions and test hypotheses. Currently I investigate questions related to breast cancer research through my work as a Research Biostatistician at [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/departments/epidemiology-biostatistics) in the department of Epidemiology & Biostatistics. 
+I am a postdoctoral researcher in the University of Konstanz. My interest is in using database analysis and computer simulations to answer questions in community ecology and macroecology. Currently I mainly combine the [Global Naturalized Alien Flora database](https://www.mskcc.org/departments/epidemiology-biostatistics) with other excellent databases to explore these topics. 
 
-I graduated from the [University of Minnesota](http://www.sph.umn.edu/academics/divisions/biostatistics/) with a MS in biostatistics in 2010. In 2012 I began working toward my DrPH in biostatistics as a part-time student at [Columbia University](https://www.mailman.columbia.edu/become-student/departments/biostatistics), where I am investigating statistical methods for the study of etiologic heterogeneity in epidemiologic studies under the advisement of [Dr. Shuang Wang](https://www.mailman.columbia.edu/people/our-faculty/sw2206) at Columbia University and [Dr. Colin Begg](https://www.mskcc.org/profile/colin-begg) at Memorial Sloan Kettering Cancer Center. I expect to graduate by the end of 2018.
+I graduated with a BS in Marine Biological Resource and a MS in Freshwater Biology. Afterwards, I began working as a lab assistant and then a PhD candidate with [Dr. Ian Donohue](https://www.tcd.ie/Zoology/research/groups/donohue/) and [Dr. Andrew L Jackson](http://www.tcd.ie/Zoology/research/groups/jackson/) in [Trinity College Dublin](https://www.tcd.ie/), where I investigated the multidimensionality of ecological stability. In June 2018, I joined the [Ecology Lab](https://www.biologie.uni-konstanz.de/kleunen/) as a postdoc working with Prof. Mark van Kleunen.
 
-I am an avid R enthusiast, including serving on the board and being an active member of [R Ladies NYC](http://www.rladiesnyc.org/). 
-
-My full CV is available [here](files/Zabor_Emily_CV.pdf).
+My full CV is available [here](files/Qiang.Yang.cv.pdf).
 
 

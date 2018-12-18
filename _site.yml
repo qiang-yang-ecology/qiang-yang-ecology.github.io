@@ -18,8 +18,6 @@ navbar:
       href: http://github.com/qiang-yang-ecology
     - icon: fa-twitter fa-lg
       href: https://twitter.com/Qiang__Yang
-    - icon: fa-researchgate fa-lg
-      href: https://twitter.com/Qiang-Yang
 output:
   html_document:
     theme: paper

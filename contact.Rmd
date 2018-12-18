@@ -3,7 +3,7 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-I'd love to discuss with you on **ecology**, **data analysis**, and **R**, so feel free to reach out:
+**I'd love to discuss with you on ecology, data analysis, and R, so feel free to reach out:**
 qiang.yang@uni-konstanz.de<br>
 
 Ecology Lab (M840)<br>
