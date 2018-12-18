@@ -1,28 +1,37 @@
 h1 {
-  font-size: 40px;
+  font-size: 25px;
   font-style: bold;
+  font-weight: 125;
 }
 h1.title {
-  font-size: 40px;
+  font-size: 25px;
   font-style: bold;
+  font-weight: 125;
 }
 h2 {
-  font-size: 35px;
+  font-size: 25px;
   font-style: bold;
+  font-weight: 125;
 }
 h3 {
   font-size: 25px;
-  font-style: italic;
+  font-style: bold;
   font-weight: 125;
 }
 h4 {
   font-size: 25px;
+  font-style: bold;
+  font-weight: 125;
 }
 h5 {
-  font-size: 20px;
+  font-size: 25px;
+  font-style: bold;
+  font-weight: 125;
 }
 h6 {
-  font-size: 15px;
+  font-size: 25px;
+  font-style: bold;
+  font-weight: 125;
 }
 img {
     display: block;
