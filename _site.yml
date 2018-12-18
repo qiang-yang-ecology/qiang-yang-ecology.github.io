@@ -1,25 +1,23 @@
-name: "Emily C. Zabor"
+name: "Qiang Yang"
 output_dir: "."
 navbar:
-  title: "Emily C. Zabor"
+  title: "Qiang Yang"
   left:
-    - text: "Writing"
+    - text: "About me"
       href: research.html
-    - text: "Speaking"
+    - text: "Projects"
       href: talks.html
-    - text: "Programming"
+    - text: "Publications"
       href: software.html
-    - text: "Teaching"
+    - text: "Blog"
       href: teaching.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
     - icon: fa-github fa-lg
-      href: http://github.com/zabore
+      href: http://github.com/qiang-yang-ecology
     - icon: fa-twitter fa-lg
-      href: https://twitter.com/zabormetrics
-    - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/emily-zabor-59b902b7/
+      href: https://twitter.com/qiang.00.yang
 output:
   html_document:
     theme: paper
