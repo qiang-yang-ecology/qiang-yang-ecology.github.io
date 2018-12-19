@@ -4,13 +4,11 @@ navbar:
   title: "Qiang Yang"
   left:
     - text: "About me"
+      href: about.me.html
+    - text: "Research"
       href: research.html
-    - text: "Publications"
-      href: Publications.html
-    - text: "Projects"
-      href: software.html
     - text: "Posts"
-      href: teaching.html
+      href: post.html
     - text: "Contact"
       href: contact.html
   right:

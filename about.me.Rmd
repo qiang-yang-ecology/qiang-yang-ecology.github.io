@@ -1,0 +1,102 @@
+---
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+**My full CV is available [here](files/Qiang.Yang.cv.pdf).{outdated, to be updated}**
+
+------------------
+
+### <span style="color:blue">Background</span>
+
+I obtained my BS from Ocean University of China, where I majored in Marine Biological Resources and Environment. During my undergraduate study, I received extensive training in marine biology, marine ecology, and marine environment. My undergraduate thesis focused on the impact of ocean environment on the diffusion of aquacultural waste. I did my Master research in the Institute of Hydrobiology, Chinese Academy of Sciences. My
+research focused on the factors that regulate diatom blooms in the river. Afterwards, I started my study and research abroad. I began working as a lab assistant and then a PhD candidate in [Trinity College Dublin](https://www.tcd.ie/), Ireland. Working with [Dr. Ian Donohue](https://www.tcd.ie/Zoology/research/groups/donohue/) and [Dr. Andrew L Jackson](http://www.tcd.ie/Zoology/research/groups/jackson/), I investigated the multidimensionality of ecological stability. In June 2018, I joined the [Ecology Lab](https://www.biologie.uni-konstanz.de/kleunen/) as a postdoc research associate working with [Prof. Mark van Kleunen](https://www.biologie.uni-konstanz.de/kleunen/ecology-team/prof-dr-mark-van-kleunen/) on the macroecology of global naturalized plant species.
+
+### <span style="color:blue">Research skills</span>
+
+
+**Dynamical System Modeling**
+
+- I conducted extensive simulations of food-web dynamics for my Ph.D. project.
+
+**Data Analysis**
+
+- GLMs, GLMMs, GAMs (used in Q Yang et al. 2012), GDM, and MCMCGLMM
+- Causality exploration with Structure Equation Modeling (teaching experience)
+- Causality and prediction with Convergent Cross Mapping for nonlinear dynamical systems (used in Q Yang et al. in preparation)
+- Community Ordination with CANOCO and R package ‘vegan’ (teaching experience)
+- Individual Based Modeling using R and Netlogo software
+- Species Distribution Modeling 
+
+**Programming**
+
+- R (I am an advanced R user. All of my simulation work and data analyses were done with R.)
+- Matlab and Mathematica (intermediate level)
+- Bash (used to interact with the cluster in Trinity College Dublin and University of Konstanz for simulation and data analysis; my own working computer is with Ubuntu system)
+
+**Computer Skills**
+
+- Text and coding formatting with Latex and R Markdown
+- Version control with Github and GitLab
+- Image and animation production using Adobe Illustrator, and Abobe Flash.
+
+**Feild & Laboratory Skills**
+
+- Sampling, identification, and quantification of the plankton, invertebrate, and macrophytes in both marine and freshwater ecosystems
+- Lab culture of zooplankton (daphnia) and phytoplankton (diatom and cyanobacteria)
+- Nutrient analysis: nitrogen, phosphorus, silicon, carbon, etc.
+- Field survey of grassland experimental plots
+
+
+### <span style="color:blue">Conference & symposium talks</span>
+
+**August 6-11, 2017; Portland, USA**<br/>
+Attended the Annual Meeting of Ecological Society of America. I presented
+my talk “Perturbation intensity and the stability of ecological networks”.
+
+**April 14, 2016; Trinity College Dublin, Ireland**<br/>
+Gave a talk ”The effect of environmental stochasticity on ecological
+stability” in the TCD Zoology and Botany Postgraduate Symposium.
+
+**December 13-16,  2016; Edinburgh, UK**<br/>
+Attended the British Ecological Society Annual Meeting. I talked on
+“Stronger perturbations increase the complexity of ecological stability”.
+
+**February 16-17, 2015; Trinity College Dublin, Ireland**<br/>
+Gave a talk ”Perturbations decouple relationships among ecological stability
+components” in the TCD Zoology and Botany Postgraduate Symposium.
+
+**February 20-21, 2014; Trinity College Dublin, Ireland**<br/>
+Presented a talk ”The multidimensionality of ecological stability: A
+theoretical study” in the TCD Zoology and Botany Postgraduate Symposium.
+
+
+### <span style="color:blue">Awards & Scholarships</span>
+
+**Innovation in Sustainability Science Award**<br/>
+
+- awared by Ecological Society of America in March 2017
+- The award is given to the authors of a peer-review paper published in the past five years that exemplifies leading edge work on solution pathways to sustainability challenges. The award recognizes that the application of sustainability science is enabled by linking ecological science with advances in other biophysical disciplines, engineering, the social sciences (e.g., economics, anthropology, public policy, governance), and other fields.
+
+**Government of Ireland Postgraduate Fellowship**
+
+- awarded by Irish Research Concil in September 2013
+- this is the fellowship supporting my PhD study
+
+**Awards during my MS**
+
+- Chang Hua Award (evaluated by research performance)
+- Di Ao Award (evaluated by research performance)
+- Haida Award (evaluated by research performance)
+
+**Undergraduate awards**
+
+- Learning Excellence Award (awarded twice; evaluated by course scores)
+
+### <span style="color:blue">Teaching</span>
+
+- to be updated ... 
