@@ -25,9 +25,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -117,7 +116,6 @@ body {
   padding-top: 69px;
   margin-top: -69px;
 }
-
 .section h2 {
   padding-top: 69px;
   margin-top: -69px;
@@ -137,6 +135,43 @@ body {
 .section h6 {
   padding-top: 69px;
   margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -158,18 +193,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -331,12 +425,12 @@ div.tocify {
 <h3>Peer-reviewed publications</h3>
 <p><span style="color:cornflowerblue"><strong>Q. Yang</strong></span>, F. Mike, A.L. Jackson, I. Donohue. The predictability of ecological stability in a noisy world. <strong>Nature Ecology &amp; Evolution</strong>. accepted.</p>
 <pre class="r"><code>Abstract: &#39;Random environmental variation, or stochasticity, is a key determinant of ecological dynamics. While we have some appreciation of how environmental stochasticity can moderate the variability and persistence of communities, we know little about its implications for the nature and predictability of ecological responses to large perturbations. Here, we show that shifts in the temporal autocorrelation (colour) of environmental noise provoke trade-offs in ecological stability across a wide range of different food-web structures by stabilizing dynamics in some dimensions, while simultaneously destabilizing them in others. Specifically, increasingly positive autocorrelation (reddening) of environmental noise increases resilience by hastening recovery of food-webs following a large perturbation, but reduces their resistance to perturbation and increases their temporal variability (reduces biomass stability). In contrast, all stability dimensions become less predictable, showing increased variability around the mean response, as environmental noise reddens. Moreover, we found environmental reddening to be a considerably more important determinant of stability than intrinsic food-web characteristics. These findings reveal the fundamental and dominant role played by environmental stochasticity in determining the dynamics and stability of ecosystems and extend our understanding of how the multiple dimensions of stability relate to each other beyond simple white noise environments.&#39;</code></pre>
-<p>I. Donohue, O.L. Petchey, S. Kefi, A. Genin, A.L. Jackson, <span style="color:cornflowerblue"><strong>Q. Yang</strong></span>, N.E. O’Connor. (2017) <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.13703">Loss of predator species, not intermediate consumers, triggers rapid and dramatic extinction cascades</a>. <strong>Global Change Biology</strong>. 23: 2962-2972.</p>
-<p>I. Donohue, H. Hillebrand, J.M. Montoya, O.L. Petchey, S.L. Pimm, M.S. Fowler, K. Healy, A.L. Jackson, M. Lurgi, D. McClean, N.E. O’Connor, E.J. O’Gorman, <span style="color:cornflowerblue"><strong>Q. Yang</strong></span>. (2016) <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ele.12648">Navigating the complexity of ecological stability</a>. <strong>Ecology Letters</strong>, 19(9): 1172-1185.</p>
-<p>P.L. Shi, H. Shen, W.J. Wang, <span style="color:cornflowerblue"><strong>Q. Yang</strong></span>, P. Xie. (2016) <a href="https://link.springer.com/article/10.1007/s10811-015-0531-7">Habitat-specific differences in adaptation to light in freshwater diatoms</a>. <strong>Journal of Applied Phycology</strong>, 28(1): 227-239.</p>
-<p><span style="color:cornflowerblue"><strong>Q. Yang</strong></span>, P. Xie, H. Shen, J. Xu, P. Wang and B. Zhang. (2012) <a href="https://www.sciencedirect.com/science/article/abs/pii/S0043135412000838">A novel flushing strategy for diatom bloom prevention in the lower-middle Hanjiang River</a>. <strong>Water Research</strong>, 46(8): 2525-2534.</p>
-<p>D.W. Zhang, <span style="color:cornflowerblue"><strong>Q. Yang</strong></span>, P. Xie, X.W. Deng, J. Chen, and M. Dai. (2012) <a href="https://link.springer.com/article/10.1007/s10646-011-0783-1">The role of cysteine conjugation in the detoxification of microcystin-LR in liver of bighead carp (Aristichthys nobilis): a field and laboratory study</a>. <strong>Ecotoxicology</strong>, 21(1): 244-252.</p>
-<p>J. Xu, <span style="color:cornflowerblue"><strong>Q. Yang</strong></span>, M. Zhang, P. Xie, and L.A. Hansson. (2011) <a href="https://link.springer.com/article/10.1007/s10452-011-9369-5">Preservation effects on stable isotope ratios and consequences for the reconstruction of energetic pathways</a>. <strong>Aquatic Ecology</strong>, 45(4): 483-492.</p>
+<p>I. Donohue, O.L. Petchey, S. Kefi, A. Genin, A.L. Jackson, <span style="color:cornflowerblue"><strong>Q. Yang</strong></span>, N.E. O’Connor. (2017) Loss of predator species, not intermediate consumers, triggers rapid and dramatic extinction cascades. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.13703"><strong>Global Change Biology</strong>. 23: 2962-2972.</a></p>
+<p>I. Donohue, H. Hillebrand, J.M. Montoya, O.L. Petchey, S.L. Pimm, M.S. Fowler, K. Healy, A.L. Jackson, M. Lurgi, D. McClean, N.E. O’Connor, E.J. O’Gorman, <span style="color:cornflowerblue"><strong>Q. Yang</strong></span>. (2016) Navigating the complexity of ecological stability. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ele.12648"><strong>Ecology Letters</strong>, 19(9): 1172-1185.</a></p>
+<p>P.L. Shi, H. Shen, W.J. Wang, <span style="color:cornflowerblue"><strong>Q. Yang</strong></span>, P. Xie. (2016) Habitat-specific differences in adaptation to light in freshwater diatoms. <a href="https://link.springer.com/article/10.1007/s10811-015-0531-7"><strong>Journal of Applied Phycology</strong>, 28(1): 227-239.</a></p>
+<p><span style="color:cornflowerblue"><strong>Q. Yang</strong></span>, P. Xie, H. Shen, J. Xu, P. Wang and B. Zhang. (2012) A novel flushing strategy for diatom bloom prevention in the lower-middle Hanjiang River. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0043135412000838"><strong>Water Research</strong>, 46(8): 2525-2534.</a></p>
+<p>D.W. Zhang, <span style="color:cornflowerblue"><strong>Q. Yang</strong></span>, P. Xie, X.W. Deng, J. Chen, and M. Dai. (2012) The role of cysteine conjugation in the detoxification of microcystin-LR in liver of bighead carp (Aristichthys nobilis): a field and laboratory study. <a href="https://link.springer.com/article/10.1007/s10646-011-0783-1"><strong>Ecotoxicology</strong>, 21(1): 244-252.</a></p>
+<p>J. Xu, <span style="color:cornflowerblue"><strong>Q. Yang</strong></span>, M. Zhang, P. Xie, and L.A. Hansson. (2011) Preservation effects on stable isotope ratios and consequences for the reconstruction of energetic pathways. <a href="https://link.springer.com/article/10.1007/s10452-011-9369-5"><strong>Aquatic Ecology</strong>, 45(4): 483-492.</a></p>
 <hr />
 </div>
 <div id="non-peer-reviewed-publications" class="section level3">
