@@ -7,42 +7,49 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-## Columbia University
+<span style="color:cornflowerblue">**If you have no access to any of my publications, feel free to request a pdf copy.**</span>
 
-My dissertation research, under the advisement of [Dr. Shuang Wang](https://www.mailman.columbia.edu/people/our-faculty/sw2206) at Columbia University and [Dr. Colin Begg](https://www.mskcc.org/profile/colin-begg) at Memorial Sloan Kettering Cancer Center, focuses on statistical methods for the study of etiologic heterogeneity. The first part of my research focused on comparing and contrasting existing methods for the study of etiologic heterogeneity using a simulation study and simplified data example. Next, I examined the statistical properties of our method for the study of etiologic heterogeneity to determine its ability to find the truly most etiologically heterogeneous subtype solutions under a variety of data settings. Finally, I am applying the method to data from the Carolina Breast Cancer Study, and exploring additional methodological challenges that exist in a real data analysis.
+------------------
 
-### Selected publications
+### Research interests
 
-The below publications represent my work to date on the topic of statistical methods for the study of etiologic heterogeneity:
+My research interests lie broadly in community ecology and macroecology, in particular in what determines the dynamics and stability of ecological networks, and how these properties in turn affect the local and regional pattern of biodiversity and ecosystem functioning. I am fascinated by the nature of the relationships among these properties, how they scale trophically and spatially, and how they are regulated by environmental change and stochasticity. I am a theoretical ecologist and data scientist, and mainly use computer simulations and database analysis to answer these interesting questions.
 
-**Zabor, E. C.**, & Begg, C. B. (2017). A comparison of statistical methods for the study of etiologic heterogeneity. *Stat Med*, 36(25), 4050-4060.
 
-Mauguen, A., **Zabor, E. C.**, Thomas, N. E., Berwick, M., Seshan, V. E., & Begg, C. B.(2017). Defining Cancer Subtypes With Distinctive Etiologic Profiles: An Application to the Epidemiology of Melanoma. *J Am Stat Assoc*, 112(517), 54-63.
 
-Begg, C. B., Rice, M. S., **Zabor, E. C.**, & Tworoger, S. S. (2017). Examining the common aetiology of serous ovarian cancers and basal-like breast cancers using double primaries. *Br J Cancer*.
+------------------
 
-Begg, C. B., Orlow, I., **Zabor, E. C.**, Arora, A., Sharma, A., Seshan, V. E., Bernstein, J. L. (2015). Identifying Etiologically Distinct Sub-Types of Cancer: A Demonstration Project Involving Breast Cancer. *Cancer Med*, 4(9), 1432-1439.
+### Projects
 
-Begg, C. B., Seshan, V. E., **Zabor, E. C.**, Furberg, H., Arora, A., Shen, R., . . . Hsieh, J. J. (2014). Genomic investigation of etiologic heterogeneity: methodologic challenges. *BMC Med Res Methodol*, 14, 138.
+**Aquatic ecology and environment**
 
-Begg, C. B., **Zabor, E. C.**, Bernstein, J. L., Bernstein, L., Press, M. F., Seshan, V. E. (2013). A conceptual and methodological framework for investigating etiologic heterogeneity. *Stat Med*, 32(29), 5039-5052.
+During my Master's study, my research is mainly in the area of aquatic ecology and environment. My Master thesis studied the mechanism underlying algal blooms in the river^8^. In field, I investigated the effect of climatic and hydrological conditions on the formation of diatom blooms in the Hanjiang River. With the effects being clear, I further put forward a feasible flushing strategy for algal bloom control^5^. During this stage, I also actively participated in other projects related to stable isotope ecology^7^ and aquatic toxicology^6^.
 
-## Memorial Sloan Kettering Cancer Center
+**The multidimensionality of ecological stability**
 
-At Memorial Sloan Kettering Cancer Center I spent six years collaborating on research projects in genito-urinary cancers, with an emphasis on genetic predictors of patient outcomes. Since then I have worked with the breast surgery service on research comparing patient outcomes according to different treatment strategies. I have also collaborated closely with epidemiologists on research related to smoking and bladder cancer and with health outcomes researchers on long-term outcomes following treatment for lymphoma.
+Ecological stability is a multifaceted concept, incorporating components such as variability, resistance, resilience, persistence, and robustness. Understanding and predicting the relationships among these many components of stability is fundamental to the optimal management of both biodiversity and ecosystem functioning. In spite of this, the multidimensionality of ecological stability remains remarkably understudied, with most research focussing on one or two components in isolation. We know worryingly little about the mechanisms underpinning relationships among components of stability and whether there are any general features of these that are common across different types of ecosystem or disturbance. In my PhD project, I explored the effect of perturbations on both the relationships between stability components and the predictability of these components.
 
-### Selected publications
+i) I examined the effects of perturbation intensity using theoretical simulations. By analysing the dynamics of food-webs following perturbations of different strengths, I discover that the predictability of stability components and the strength of relationships between them decrease with increasing perturbation strength. Importantly, this decoupling effect of strong perturbations was consistent across a variety of food-web structures. 
 
-The following publications represent a sample of methodological work I have conducted at Memorial Sloan Kettering Cancer Center:
+ii) I tested these predictions in natural communities using data from the Nutrient Network - a globally distributed grassland experimental system - to examine whether perturbations decouple relationships between components of stability at the global scale.
 
-**Zabor, E. C.**, Coit, D., Gershenwald, J. E., McMasters, K. M., Michaelson, J. S., Stromberg, A. J., \& Panageas, K. S. (2018). Variability in Predictions from Online Tools: A Demonstration Using Internet-Based Melanoma Predictors. *Ann Surg Oncol*, 25(8), 2172-2177. 
+iii) Natural systems encounter a large variety of perturbations that vary in their spatial extents, durations, frequencies, and intensities. While most models and experiments predicting ecological responses have typically applied static steady-state approaches that focus on a single perturbation event or the mean level of environmental change, few have incorporated environmental stochasticity. Moreover, those that do tend to incorporate it as white noise. In \Chapref{Stochasticity}, using food-web modeling I explored how the response and predictability of different stability components are regulated by key characteristics of environmental stochasticity, including its temporal autocorrelation (colour), and the strength of correlations in the responses of species to it. I found that different stability components showed distinct responding patterns to changing temporal autocorrelation of environmental noise. Increasing environmental autocorrelation stabilize communities in some dimensions yet simultaneously destabilize them in others. In contrast, the predictability of stability decreases consistently as the temporal autocorrelation of environmental noise becomes increasingly positive. This finding demonstrates the fundamental role played by environmental stochasticity in determining the dynamics and stability of ecosystems and challenges the credibility of models that overlook it or simply incorporate it as white noise. 
 
-**Zabor, E. C.**, Heller, G., Schwartz, L. H., Chapman, P. B. (2016). Correlating Surrogate Endpoints with Overall Survival at the Individual Patient Level in BRAFV600E-Mutated Metastatic Melanoma Patients Treated with Vemurafenib. *Clin Cancer Res*, 22(6), 1341-1347.
+Taken together, results of the research described in this thesis highlight important difference between different components of ecological stability in their response to external perturbations and environmental stochasticity, and emphasize the necessity of exploring further the multifaceted nature of ecological stability.
 
-**Zabor, E. C.**, Gonen, M., Chapman, P. B., Panageas, K. S. (2013). Dynamic prognostication using conditional survival estimates. *Cancer*, 119(20), 3589-3592.
+------------------
 
-## [Google scholar](https://scholar.google.com/citations?user=tLbQTZMAAAAJ&hl=en)
+### Publications
 
-A full list of publications is available at the above Google scholar link.
+
+1. <span style="color:cornflowerblue">**Q. Yang**</span>, F. Mike, A.L. Jackson, I. Donohue. The predictability of ecological stability in a noisy world. **Nature Ecology & Evolution**. accepted.
+2. I. Donohue, O.L. Petchey, S. Kefi, A. Genin, A.L. Jackson, <span style="color:cornflowerblue">**Q. Yang**</span>, N.E. O’Connor. (2017) Loss of predator species, not intermediate consumers, triggers rapid and dramatic extinction cascades. [**Global Change Biology**. 23: 2962-2972.](https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.13703)
+3. I. Donohue, H. Hillebrand, J.M. Montoya, O.L. Petchey, S.L. Pimm, M.S. Fowler, K. Healy, A.L. Jackson, M. Lurgi, D. McClean, N.E. O’Connor, E.J. O’Gorman, <span style="color:cornflowerblue">**Q. Yang**</span>. (2016) Navigating the complexity of ecological stability. [**Ecology Letters**, 19(9): 1172-1185.](https://onlinelibrary.wiley.com/doi/full/10.1111/ele.12648)
+4. P.L. Shi, H. Shen, W.J. Wang, <span style="color:cornflowerblue">**Q. Yang**</span>, P. Xie. (2016) Habitat-specific differences in adaptation to light in freshwater diatoms. [**Journal of Applied Phycology**, 28(1): 227-239.](https://link.springer.com/article/10.1007/s10811-015-0531-7)
+5. <span style="color:cornflowerblue">**Q. Yang**</span>, P. Xie, H. Shen, J. Xu, P. Wang and B. Zhang. (2012) A novel flushing strategy for diatom bloom prevention in the lower-middle Hanjiang River. [**Water Research**, 46(8): 2525-2534.](https://www.sciencedirect.com/science/article/abs/pii/S0043135412000838)
+6. D.W. Zhang, <span style="color:cornflowerblue">**Q. Yang**</span>, P. Xie, X.W. Deng, J. Chen, and M. Dai. (2012) The role of cysteine conjugation in the detoxification of microcystin-LR in liver of bighead carp (Aristichthys nobilis): a field and laboratory study. [**Ecotoxicology**, 21(1): 244-252.](https://link.springer.com/article/10.1007/s10646-011-0783-1)
+7. J. Xu, <span style="color:cornflowerblue">**Q. Yang**</span>, M. Zhang, P. Xie, and L.A. Hansson. (2011) Preservation effects on stable isotope ratios and consequences for the reconstruction of energetic pathways. [**Aquatic Ecology**, 45(4): 483-492.](https://link.springer.com/article/10.1007/s10452-011-9369-5)
+8. <span style="color:cornflowerblue">**杨强**</span>, 谢平, 徐军, 沈宏, 张敏, 王松波, 王培丽. (2011) 河流型硅藻水华研究进展. 长江流域资源与环境, 20(z1): 159-165.
+
 
 
