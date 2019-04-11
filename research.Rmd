@@ -42,7 +42,7 @@ Taken together, results of the research described in this thesis highlight impor
 ### Publications
 
 
-1. <span style="color:cornflowerblue">**Q. Yang**</span>, F. Mike, A.L. Jackson, I. Donohue. The predictability of ecological stability in a noisy world. **Nature Ecology & Evolution**. accepted.
+1. <span style="color:cornflowerblue">**Q. Yang**</span>, F. Mike, A.L. Jackson, I. Donohue. The predictability of ecological stability in a noisy world. [**Nature Ecology & Evolution**, 3(2): 251-259.](https://www.nature.com/articles/s41559-018-0794-x)
 2. I. Donohue, O.L. Petchey, S. Kefi, A. Genin, A.L. Jackson, <span style="color:cornflowerblue">**Q. Yang**</span>, N.E. O’Connor. (2017) Loss of predator species, not intermediate consumers, triggers rapid and dramatic extinction cascades. [**Global Change Biology**. 23: 2962-2972.](https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.13703)
 3. I. Donohue, H. Hillebrand, J.M. Montoya, O.L. Petchey, S.L. Pimm, M.S. Fowler, K. Healy, A.L. Jackson, M. Lurgi, D. McClean, N.E. O’Connor, E.J. O’Gorman, <span style="color:cornflowerblue">**Q. Yang**</span>. (2016) Navigating the complexity of ecological stability. [**Ecology Letters**, 19(9): 1172-1185.](https://onlinelibrary.wiley.com/doi/full/10.1111/ele.12648)
 4. P.L. Shi, H. Shen, W.J. Wang, <span style="color:cornflowerblue">**Q. Yang**</span>, P. Xie. (2016) Habitat-specific differences in adaptation to light in freshwater diatoms. [**Journal of Applied Phycology**, 28(1): 227-239.](https://link.springer.com/article/10.1007/s10811-015-0531-7)
