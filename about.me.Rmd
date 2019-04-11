@@ -16,8 +16,11 @@ output:
 I obtained my BS from Ocean University of China, where I majored in Marine Biological Resources and Environment. During my undergraduate study, I received extensive training in marine biology, marine ecology, and marine environment. My undergraduate thesis focused on the impact of ocean environment on the diffusion of aquacultural waste. I did my Master research in the Institute of Hydrobiology, Chinese Academy of Sciences. My
 research focused on the factors that regulate diatom blooms in the river. Afterwards, I started my study and research abroad. I began working as a lab assistant and then a PhD candidate in [Trinity College Dublin](https://www.tcd.ie/), Ireland. Working with [Dr. Ian Donohue](https://www.tcd.ie/Zoology/research/groups/donohue/) and [Dr. Andrew L Jackson](http://www.tcd.ie/Zoology/research/groups/jackson/), I investigated the multidimensionality of ecological stability. In June 2018, I joined the [Ecology Lab](https://www.biologie.uni-konstanz.de/kleunen/) as a postdoc research associate working with [Prof. Mark van Kleunen](https://www.biologie.uni-konstanz.de/kleunen/ecology-team/prof-dr-mark-van-kleunen/) on the macroecology of global naturalized plant species.
 
+<<<<<<< HEAD
 ------------------
 
+=======
+>>>>>>> caab5400f43ce2756bb47826533eb1737e89d448
 ### <span style="color:blue">Research skills</span>
 
 
@@ -53,7 +56,10 @@ research focused on the factors that regulate diatom blooms in the river. Afterw
 - Nutrient analysis: nitrogen, phosphorus, silicon, carbon, etc.
 - Field survey of grassland experimental plots
 
+<<<<<<< HEAD
 ------------------
+=======
+>>>>>>> caab5400f43ce2756bb47826533eb1737e89d448
 
 ### <span style="color:blue">Conference & symposium talks</span>
 
@@ -77,7 +83,10 @@ components” in the TCD Zoology and Botany Postgraduate Symposium.
 Presented a talk ”The multidimensionality of ecological stability: A
 theoretical study” in the TCD Zoology and Botany Postgraduate Symposium.
 
+<<<<<<< HEAD
 ------------------
+=======
+>>>>>>> caab5400f43ce2756bb47826533eb1737e89d448
 
 ### <span style="color:blue">Awards & Scholarships</span>
 
@@ -101,8 +110,11 @@ theoretical study” in the TCD Zoology and Botany Postgraduate Symposium.
 
 - Learning Excellence Award (awarded twice; evaluated by course scores)
 
+<<<<<<< HEAD
 ------------------
 
+=======
+>>>>>>> caab5400f43ce2756bb47826533eb1737e89d448
 ### <span style="color:blue">Teaching</span>
 
 - to be updated ... 
